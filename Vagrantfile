@@ -68,7 +68,7 @@ VAGRANTFILE_API_VERSION = "2"
 ENV['VAGRANT_DEFAULT_PROVIDER'] = 'vmware_fusion'
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "chef/ubuntu-14.04"
+  config.vm.box = "puppetlabs/ubuntu-14.04-64-puppet"
   config.vm.provider "vmware_fusion" do |v|
     v.vmx["memsize"] = "4096"
     v.vmx["numvcpus"] = "2"
