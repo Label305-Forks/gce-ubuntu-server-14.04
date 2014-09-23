@@ -8,7 +8,7 @@ Ubuntu Server 14.04 LTS Image Generator for Google Compute Engine
 If you just want to try it, you may use our precompiled image:
 
 ```
-gcutil addimage ubuntu-14-04 gs://gcx-devops-images/ubuntu-14.04-image.tar.gz
+gcutil addimage ubuntu-14-04 gs://l305-devops/ubuntu-14.04-image.tar.gz
 ```
 
 Please be aware that you are essentially running an OS image that you cannot possibly audit. **Do not use this image in production.** We urge you to **build your own image** (using the instructions below). The process is very streamlined and will only take about 30-60 minutes, depending on machine and network speed.
